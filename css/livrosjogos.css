@@ -1,0 +1,409 @@
+@media only screen and (max-width: 300px) 
+{
+    header{width: 100%;display: block; }
+    .um{width: 300px}
+    img{width:10px; height: 10px;}
+}
+body 
+{
+  background-image: url("../img/wallpaper3.gif");
+  background-position: 50% 20%;
+  color: white;
+  font-family: arial; 
+}
+header
+{
+    width:100%;
+    height:120px; 
+    background-color:#4682B4;
+}
+
+.categorias
+{
+    padding-left: 5%;
+    padding-right: 15%;
+    padding-top: 30px;
+    border-radius:50px;
+    margin-top: 20px;
+    width:40%;
+    height: 40px;
+    background-color: #4682B4;
+}
+button
+{
+    margin-top:10px;
+    border:none;
+    background-color: #DC143C;
+    color: white;
+    font-family:arial;
+    border-radius: 30px;
+    width: 10%;
+    height: 70%;
+    outline: none; 
+}
+form
+{
+    text-align: center;
+}
+input
+{
+    margin-top: 10px;
+    margin-left: 7%;
+    padding-right: 30%;
+    padding-bottom: 18px;
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-top: 18px;
+    outline: none;
+    border:none;
+}
+*{
+    margin: 0px;
+    padding: 0px; 
+}
+
+.um
+{
+    padding-left:25%; 
+    width: 5%;
+    float: left;
+}
+.dois
+{
+    width: 70%;
+    float: right;
+    height: 70px;
+    background-color: #4682B4;
+}
+a:hover
+{
+
+    text-decoration:underline;
+}
+.tres
+{
+    font-size: 9pt;
+    padding-top: 21px;
+    border-radius: 20%;
+    color: white;
+    padding-left: 35%;
+    width: 35%;
+    float: right;
+    height: 20px;
+    font-family: arial;
+    background-color: #4682B4;
+}
+pre
+{
+    font-family: arial;
+    font-size: 12pt;
+}
+.principal
+{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 50px 10%;
+    width:80%;
+    height: 700px;
+    background-color: #4682B4;
+}
+p{
+    color: darkslategray;
+    font-size: 12pt;
+}
+.primeiro
+{
+    font-size: 12pt;
+    font-family:arial;
+    color: black;
+    padding-top: 1%;
+    float: left;
+    margin-top: 2%;
+    width:19%;
+    margin-right: 44px;
+    height:600px;
+    margin-left: 44px;
+    background-color: #fff; 
+}
+
+@media only screen and (max-width: 600px)
+{
+    img{width: 250px;height:330px;}
+    body{ background-image: url("../img/wallpaper3.gif");}
+	header{width: 100%; height: 100px; text-align: center;}
+    #logo{ width:70px; height:70px;}
+    .tres{margin-right:149px;font-size:8pt;width:10px; padding-left:0px;}
+    pre{font-size:10pt;}
+    .dois{display: none;}
+    nav{height: 150px;}
+    .categorias{width:80%;}
+    .primeiro{width:80%;margin-top:10px; margin-left:35px; margin-right: 40px;height:400px;}
+    .secundario{ width:100%; height:760px; background-color: #fff; padding: 1px 5px;}
+    .comprar{width:100%;}
+    #principal2{ text-align:center; background-image: url("../img/wallpaperpricipal.jpeg"); background-position: 100% 40%; padding-top:50px; height:900px; display:block; margin-top:30px; padding-right:33px; margin-left:33px; margin-right: 40px;}
+    .principal{ text-align: center; background-image: url("../img/wallpaperpricipal.jpeg"); background-position: 100% 40%; padding-top:50px; height:1200px; display:block; margin-top:30px; padding-right:33px; margin-left:15px; margin-right: 40px;}
+    #principal{ text-align: center; background-image: url("../img/wallpaperpricipal.jpeg"); background-position: 100% 40%; padding-top:50px; height:500px; display:block; margin-top:30px; padding-right:33px; margin-left:33px; margin-right: 40px;}   
+    a{font-size:8pt;}
+    .cartao{ width: 120px; height: 30px;}
+     #boleto{ width: 100px; height: 30px;}
+     #buy{margin-top:9px; border:none;
+    background-color: #DC143C;
+    color: white;
+    font-family:arial;
+    border-radius: 30px;
+    width: 90px;
+    height: 30px;
+    outline: none;}
+    .h{ margin-top:10px; width: 103%; height: 220px; background-color: cadetblue; text-align: center;} 
+    input{margin-top: 10px;}
+}
+
+
+#hh{color: #fff;}
+
+
+
+@media only screen and (max-width: 1800px) and (min-width: 600px)
+{
+    #hh{margin-left: 4%;}
+.quem{ width:300px; height:auto; text-align: center; margin:0px 24%; font-size:10pt; color:white;}
+body 
+{
+    background-image: url("../img/wallpaper3.gif");
+  background-position: 50% 20%;
+  color: white;
+  font-family: arial; 
+}
+a{font-size: 7pt;}
+header
+{
+    padding-top: 2px;
+    width:100%;
+    height:100px; 
+    background-color:#4682B4;
+}
+
+.categorias
+{
+    padding-left: 5%;
+    padding-right: 15%;
+    padding-top: 25px;
+    border-radius:50px;
+    margin-top: 20px;
+    width:40%;
+    height: 30px;
+    background-color: #4682B4;
+}
+#buy
+{
+    margin-top:9px;
+    border:none;
+    background-color: #DC143C;
+    color: white;
+    font-family:arial;
+    border-radius: 30px;
+    width: 90px;
+    height: 30px;
+    outline: none; 
+}
+button
+{
+    margin-top:9px;
+    border:none;
+    background-color: #DC143C;
+    color: white;
+    font-family:arial;
+    border-radius: 30px;
+    width: 10%;
+    height: 60%;
+    outline: none; 
+}
+input
+{
+    height: 10px;
+    margin-top: 5px;
+    margin-left: 3%;
+    padding-right: 20%;
+    padding-bottom: 14px;
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-top: 12px;
+    outline: none;
+    border:none;
+}
+*{
+    margin: 0px;
+    padding: 0px; 
+}
+.secundario
+{
+    padding: 2% 2%;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 12pt;
+    font-family:arial;
+    color: black;
+    width: 20%;
+    height: 350px;
+    background-color: #fff;
+    float:left;
+    margin-top:4%;
+}
+#logo
+{
+    width: 100px;
+    height: 100px;
+}
+img
+{
+    border-top-right-radius: 20px;
+    width: 80%;
+    height: 75%;
+}
+.um
+{
+    padding-left:27%; 
+    width: 5%;
+    float: left;
+}
+.dois
+{
+    padding-top: 10px;
+    padding-right: 8%;
+    width: 60%;
+    float: right;
+    height: 70px;
+    background-color: #4682B4;
+}
+a:hover
+{
+    text-decoration:underline;
+}
+.tres
+{
+    padding-right: 10%;
+    font-size: 6pt;
+    padding-top: 0px;
+    border-radius: 20%;
+    color: white;
+    padding-left: 1%;
+    width: 25%;
+    float: right;
+    height: 20px;
+    font-family: arial;
+    background-color: #4682B4;
+}
+pre
+{
+    font-family: arial;
+    font-size: 10pt;
+}
+#principal
+{
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    padding-left: 10px;
+    padding-right: -20px;
+    margin: 50px 8%;
+    width:  84%;
+    height: 600px;
+    background-image: url("../img/wallpaperpricipal.jpeg");
+    background-position: 100% 40%;
+}
+#principal2{ text-align:center; background-image: url("../img/wallpaperpricipal.jpeg"); background-position: 100% 40%; padding-top:50px; height:700px; display:block; margin-top:30px; padding-right:33px; margin-left:33px; margin-right: 40px;}
+.principal
+{
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    padding-left: 10px;
+    padding-right: -20px;
+    margin: 50px 8%;
+    width:  84%;
+    height: 600px;
+    background-image: url("../img/wallpaperpricipal.jpeg");
+    background-position: 100% 40%;
+}
+i
+{
+    padding-right:40%;
+    width: 90%;
+    height:500px;
+    background-color: white;
+    float:left;
+    margin-top: 20%;
+    margin-left: 10%;
+}
+.h
+{
+    width: 30%;
+    height:340px;
+    background-color: #4682B4;
+    float:left;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+.comprar2
+{
+    border-bottom-left-radius: 40px;
+    border-top-right-radius: 40px;
+    color:  black;
+    padding: 5% 3%; 
+    width: 84%;
+    height:290px;
+    float:left;
+    margin-top:3%;
+    margin-left:5%;
+    text-align:center;
+}
+form
+{
+    margin-right: 19%;
+    display: block;
+    margin-top: 2px;
+    text-align: center;
+    margin-bottom: 200px;
+}
+.comprar
+{
+    color:  black;
+    padding: 2% 3%; 
+    width: 84%;
+    height:300px;
+    background-color: #fff;
+    float:left;
+    margin-top: 3%;
+    margin-left: 5%;
+    text-align: center;
+}
+.cartao{ width: 120px; height: 30px;}
+#boleto{ width: 100px; height: 30px;}
+
+#x{
+    color:green;
+    font-size: 8pt;
+}
+h3{font-size:8pt;}
+.primeiro
+{
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 50px;
+    padding: 1px 1px;
+    font-size: 12pt;
+    font-family:arial;
+    color: black;
+    padding-top: 1%;
+    float: left;
+    margin-top: 2%;
+    width:25%;
+    margin-right: 40px;
+    height:480px;
+    margin-left: 40px;
+    background-color: #fff; 
+}
+
+p{font-size: 10pt;}
+
+h2{font-size: 12pt;}
+}

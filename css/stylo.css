@@ -1,0 +1,281 @@
+
+body 
+{
+    background-image: url("../img/wallpaper3.gif");
+  background-position: 50% 20%;
+  color: white;
+  font-family: arial; 
+}
+header
+{
+    width:100%;
+    height:120px; 
+    background-color:#4682B4;
+}
+.categorias
+{
+    padding-left: 5%;
+    padding-right: 15%;
+    padding-top: 30px;
+    border-radius:50px;
+    margin-top: 20px;
+    width:40%;
+    height: 40px;
+    background-color: #4682B4;
+}
+button
+{
+    margin-top:10px;
+    border:none;
+    background-color: #DC143C;
+    color: white;
+    font-family:arial;
+    border-radius: 30px;
+    width: 10%;
+    height: 70%;
+    outline: none; 
+}
+input
+{
+    margin-top: -1px;
+    margin-left: 7%;
+    padding-right: 30%;
+    padding-bottom: 18px;
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-top: 18px;
+    outline: none;
+    border:none;
+}
+*{
+    margin: 0px;
+    padding: 0px; 
+}
+.um
+{
+    padding-left:25%; 
+    width: 5%;
+    float: left;
+}
+.dois
+{
+    width: 70%;
+    float: right;
+    height: 70px;
+    background-color: #4682B4;
+}
+a:hover
+{
+
+    text-decoration:underline;
+}
+.tres
+{
+    font-size: 9pt;
+    padding-top: 21px;
+    border-radius: 20%;
+    color: white;
+    padding-left: 35%;
+    width: 35%;
+    float: right;
+    height: 20px;
+    font-family: arial;
+    background-color: #4682B4;
+}
+pre
+{
+    font-family: arial;
+    font-size: 10pt;
+}
+.principal
+{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 50px 10%;
+    width:80%;
+    height: 700px;
+    background-color: #4682B4;
+}
+p{
+    color: darkslategray;
+    font-size: 12pt;
+}
+.primeiro
+{
+    font-size: 12pt;
+    font-family:arial;
+    color: black;
+    padding-top: 1%;
+    float: left;
+    margin-top: 2%;
+    width:19%;
+    margin-right: 44px;
+    height:600px;
+    margin-left: 44px;
+    background-color: #fff; 
+}
+
+
+@media only screen and (max-width: 600px)
+{
+
+    #logo{width:90px; height:90px;}
+    input{display:none;}
+    header{width:100%; height:90px;}
+    .dois{display:none;}
+    button{display:none;}
+    .categorias{width:80%;}
+    a{font-size:7pt;}
+    .primeiro{width:70%; height: 500px; margin-top:30px; margin-right:20px;}
+    img{width:200px; height: 260px;}
+    .principal{width:300px; height: 2160px; margin: 20px 20px;}
+    p{font-size:10pt;}
+    h2{font-size:14pt;}
+    h3{font-size:7pt;}
+}
+
+@media only screen and (max-width: 1800px) and (min-width: 601px)
+{
+body 
+{
+  background-image: url("../img/wallpaper3.gif");
+  background-position: 50% 20%;
+  color: white;
+  font-family: arial; 
+}
+header
+{
+    padding-top: 2px;
+    width:100%;
+    height:100px; 
+    background-color:#4682B4;
+}
+
+.categorias
+{
+    font-size:8pt;
+    padding-left: 5%;
+    padding-right: 15%;
+    padding-top: 25px;
+    border-radius:50px;
+    margin-top: 20px;
+    width:40%;
+    height: 30px;
+    background-color: #4682B4;
+}
+button
+{
+    margin-top:9px;
+    border:none;
+    background-color: #DC143C;
+    color: white;
+    font-family:arial;
+    border-radius: 30px;
+    width: 10%;
+    height: 60%;
+    outline: none; 
+}
+input
+{
+    height: 10px;
+    margin-top: 1px;
+    margin-left: 7%;
+    padding-right: 30%;
+    padding-bottom: 14px;
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-top: 12px;
+    outline: none;
+    border:none;
+}
+*{
+    margin: 0px;
+    padding: 0px; 
+}
+#logo
+{
+    width: 100px;
+    height: 100px;
+
+}
+img
+{
+    border-top-right-radius: 20px;
+    width: 96%;
+    height: 60%;
+}
+.um
+{
+    padding-left:27%; 
+    width: 5%;
+    float: left;
+}
+.dois
+{
+    padding-top: 10px;
+    padding-right: 8%;
+    width: 60%;
+    float: right;
+    height: 70px;
+    background-color: #4682B4;
+}
+a:hover
+{
+    text-decoration:underline;
+}
+.tres
+{
+    padding-right: 10%;
+    font-size: 6pt;
+    padding-top: 0px;
+    border-radius: 20%;
+    color: white;
+    padding-left: 1%;
+    width: 25%;
+    float: right;
+    height: 20px;
+    font-family: arial;
+    background-color: #4682B4;
+}
+pre
+{
+    font-family: arial;
+    font-size: 10pt;
+}
+.principal
+{
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    padding-left: 10px;
+    padding-right: -20px;
+    margin: 50px 8%;
+    width:  84%;
+    height: 510px;
+    background-image: url("../img/wallpaperpricipal.jpeg");
+}
+p{
+    color: darkslategray;
+    font-size: 12pt;
+}
+.primeiro
+{
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 50px;
+    padding: 1px 1px;
+    font-size: 12pt;
+    font-family:arial;
+    color: black;
+    padding-top: 1%;
+    float: left;
+    margin-top: 2%;
+    width:17%;
+    margin-right: 40px;
+    height:440px;
+    margin-left: 40px;
+    background-color: #fff; 
+}
+a{font-size: 7pt;}
+p{font-size: 10pt;}
+h2{font-size: 12pt;}
+h3{font-size: 8pt;}
+}

@@ -1,0 +1,62 @@
+$cor-principal: #4682B4;
+*
+{
+	margin: 0px;
+	padding: 0px;
+
+}
+body
+{
+	background-image: url("../img/pael2.png");
+	background-position:  50% 20%;
+	color:white;
+	font-family: arial;
+}
+input
+{
+	width: 400px;
+	height: 55px;
+	display: block;
+	border: none;
+	margin: 10px;
+	border-radius: 30px;
+	font-size: 16pt;
+	padding-left:10px;
+	outline: none;
+
+}
+div#a
+{
+	width: 420px;
+	margin:120px auto 0px auto; 
+}
+div#a h1
+{
+	font-size: 20pt;
+	text-align: center;
+	padding: 20px;
+}
+a
+{
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+}
+
+a:hover
+{
+	text-decoration: underline;
+
+}
+input[type=submit]
+{
+	border: none;
+	background-color: $cor-principal;
+	cursor: pointer;
+	color: white;
+}
+img
+ {
+ 	margin: 0% 24%;
+ }
